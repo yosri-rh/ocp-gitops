@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - elastic-sub.yaml
+  - jaeger-sub.yaml
+  - kiali-sub.yaml
+  - ossm-sub.yaml
+  - project-istio-system.yaml
+  - smcp.yaml
